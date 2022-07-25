@@ -1,0 +1,12 @@
+.container {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.container > button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
